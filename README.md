@@ -141,7 +141,7 @@ striver-a2z-dsa-sheet/
 
 | Step | Topic | Total | Solved | Status |
 |------|-------|-------|--------|--------|
-| 1 | Learn the Basics | 31 | 0 | ⬜ Not Started |
+| 1 | Learn the Basics | 31 | 0 | ✅ |
 | 2 | Sorting Techniques | 7 | 0 | ⬜ Not Started |
 | 3 | Arrays | 40 | 0 | ⬜ Not Started |
 | 4 | Binary Search | 35 | 0 | ⬜ Not Started |
@@ -172,12 +172,8 @@ Each solution file includes:
 ```java
 /**
  * Problem: [Problem Name]
- * Link: [LeetCode/GFG Link]
- * Difficulty: Easy/Medium/Hard
+ * Link: [LeetCode/GFG Link/ Any other]
  * Topics: [Array, Hash Table, etc.]
- * 
- * Problem Statement:
- * [Brief description]
  * 
  * Approach:
  * [Explanation of the approach]
@@ -227,12 +223,11 @@ java LargestElement
 ### **Additional Resources**
 - [CP Algorithms](https://cp-algorithms.com/)
 - [Visualgo](https://visualgo.net/) - Algorithm Visualizations
-- [NeetCode](https://neetcode.io/) - LeetCode Solutions
 
 ## 💻 Tech Stack
 
-- **Primary Language:** Java
-- **Alternative Languages:** C++, Python (for some problems)
+- **Primary Language:** C++
+- **Alternative Languages:** Java, Javascript, Python (for some problems)
 - **IDE:** VS Code
 - **Version Control:** Git & GitHub
 
@@ -311,7 +306,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### 📌 Quick Links
 
 - [View Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2)
-- [My LeetCode Profile](#)
-- [My GeeksforGeeks Profile](#)
+- [My LeetCode Profile](https://leetcode.com/u/Eternal_Servant/)
+- [My GeeksforGeeks Profile](https://www.geeksforgeeks.org/profile/balramrajat1999)
 
 **Happy Coding! 🚀**
