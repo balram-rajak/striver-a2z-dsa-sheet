@@ -137,6 +137,11 @@ Each solution file includes:
 git clone https://github.com/balram-rajak/striver-a2z-dsa-sheet.git
 cd striver-a2z-dsa-sheet
 ```
+### create `inputf.in` and `outputf.in` files in root directory of repository
+```bash
+type nul > inputf.in
+type nul > outputf.in
+```
 
 ### ⚡ Quick run with VS Code TaskRunner
 
