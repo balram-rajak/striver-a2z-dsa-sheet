@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Debugger launch task to debug TaskRunner
+            "name": "Debug TaskRunner",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\lib\\TaskRunner.exe",
+            "args": [
+                // All the required arguments for TaskRunner, here percolation.java example program is used to debug taskrunner
+                "F:\\vault\\CodeLab\\princeton-algorithms-part1\\Module 02 - Union-Find\\Percolation.java",
+                "F:\\vault\\CodeLab\\princeton-algorithms-part1\\target",
+                "F:\\vault\\CodeLab\\princeton-algorithms-part1\\inputf.in",
+                "F:\\vault\\CodeLab\\princeton-algorithms-part1\\outputf.in"
+            ],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "preLaunchTask": "build C++ (debug)",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb.exe",
+            "externalConsole": false,
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "type": "node",
+            "name": "Java Launch",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "preLaunchTask": "build and run java"
+        }
+    ]
+}

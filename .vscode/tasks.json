@@ -1,0 +1,69 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build and run C++",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "g++.exe",
+                "-std=c++14",
+                "${file}",
+                "-o",
+                "${fileBasenameNoExtension}.exe",
+                "&&",
+                "${file_base_name}.exe<inputf.in>outputf.in"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            }
+        },
+        {
+            "label": "build C++ (debug)",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "g++.exe",
+                "-std=c++14",
+                "-g",
+                "${workspaceFolder}\\lib\\TaskRunner.cpp",
+                "-o",
+                "${workspaceFolder}\\lib\\TaskRunner.exe"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
+        },
+        {
+            "label": "TaskRunner to run CPP, Java, python, JS code",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "${workspaceFolder}\\lib\\TaskRunner",
+                "${file}",
+                "${workspaceFolder}\\target",
+                "${workspaceFolder}\\inputf.in",
+                "${workspaceFolder}\\outputf.in"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
+        }
+    ]
+}
