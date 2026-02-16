@@ -1,6 +1,14 @@
 # Compiled class file
 *.class
 
+# Object files
+*.o
+*.obj
+
+# Executable files
+*.exe
+*.out
+
 # Log file
 *.log
 
