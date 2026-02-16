@@ -2,7 +2,7 @@
 
 [![Sheet](https://img.shields.io/badge/Striver-A2Z_DSA_Sheet-red)](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2)
 [![Language](https://img.shields.io/badge/Language-Java-orange)](https://www.java.com/)
-[![Progress](https://img.shields.io/badge/Progress-0%2F455-blue)]()
+[![Progress](https://img.shields.io/badge/Progress-35%2F455-blue)]()
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Complete solutions for **Striver's A2Z DSA Course/Sheet** - A comprehensive roadmap for learning Data Structures and Algorithms.
@@ -13,127 +13,66 @@ This repository contains my solutions to all problems in Striver's A2Z DSA Sheet
 
 **Sheet Link:** [Striver's A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2)
 
+**Secondary Sheets:** 
+- [a2z-old-sheet](https://bugaddr.github.io/a2z_old_sheet/)
+- [Excel sheet](https://docs.google.com/spreadsheets/d/1W1VUEWc7OeYd_y62yCNhtTqp0-hLWWfRNZCtFsHfKDU/edit?usp=sharing)
+
 ## 🗂️ Repository Structure
 
 ```
 striver-a2z-dsa-sheet/
 │
-├── step1-learn-basics/
-│   ├── README.md
-│   ├── 1.1-things-to-know/
-│   ├── 1.2-build-up-logic/
-│   ├── 1.3-learn-stl/
-│   ├── 1.4-basic-maths/
-│   └── 1.5-recursion/
+├── advanced-maths/
+│   ├── segmented-sieve-gfg-product-range-primes.cpp
+│   └── sieve-of-eratosthenes.cpp
 │
-├── step2-sorting/
-│   ├── README.md
-│   ├── 2.1-sorting-techniques/
-│   └── 2.2-sorting-problems/
-│
-├── step3-arrays/
-│   ├── README.md
-│   ├── 3.1-easy/
-│   ├── 3.2-medium/
-│   └── 3.3-hard/
-│
-├── step4-binary-search/
-│   ├── README.md
-│   ├── 4.1-bs-on-1d-arrays/
-│   ├── 4.2-bs-on-2d-arrays/
-│   └── 4.3-bs-on-answer/
-│
-├── step5-strings/
-│   ├── README.md
-│   ├── 5.1-basic-easy/
-│   └── 5.2-medium/
-│
-├── step6-linked-lists/
-│   ├── README.md
-│   ├── 6.1-learn-1d-ll/
-│   ├── 6.2-learn-doubly-ll/
-│   ├── 6.3-medium-problems/
-│   └── 6.4-hard-problems/
-│
-├── step7-recursion/
-│   ├── README.md
-│   ├── 7.1-strong-hold/
-│   ├── 7.2-subsequences/
-│   └── 7.3-hard-problems/
-│
-├── step8-bit-manipulation/
-│   ├── README.md
-│   ├── 8.1-learn-basics/
-│   ├── 8.2-interview-problems/
-│   └── 8.3-advanced/
-│
-├── step9-stacks-queues/
-│   ├── README.md
-│   ├── 9.1-learning/
-│   ├── 9.2-prefix-infix-postfix/
-│   ├── 9.3-monotonic-stack/
-│   └── 9.4-implementation/
-│
-├── step10-sliding-window/
-│   ├── README.md
-│   ├── 10.1-medium/
-│   └── 10.2-hard/
-│
-├── step11-heaps/
-│   ├── README.md
-│   ├── 11.1-learning/
-│   ├── 11.2-medium/
-│   └── 11.3-hard/
-│
-├── step12-greedy/
-│   ├── README.md
-│   ├── 12.1-easy/
-│   ├── 12.2-medium-hard/
-│   └── 12.3-hard/
-│
-├── step13-binary-trees/
-│   ├── README.md
-│   ├── 13.1-traversals/
-│   ├── 13.2-medium/
-│   └── 13.3-hard/
-│
-├── step14-binary-search-trees/
-│   ├── README.md
-│   ├── 14.1-concepts/
-│   ├── 14.2-practice/
-│   └── 14.3-hard/
-│
-├── step15-graphs/
-│   ├── README.md
-│   ├── 15.1-learning/
-│   ├── 15.2-bfs-dfs/
-│   ├── 15.3-toposort/
-│   ├── 15.4-shortest-path/
-│   └── 15.5-mst-disjoint-set/
-│
-├── step16-dynamic-programming/
-│   ├── README.md
-│   ├── 16.1-1d-dp/
-│   ├── 16.2-2d-3d-dp-grids/
-│   ├── 16.3-dp-on-subsequences/
-│   ├── 16.4-dp-on-strings/
-│   ├── 16.5-dp-on-stocks/
-│   ├── 16.6-dp-on-lis/
-│   ├── 16.7-mcm-dp/
-│   └── 16.8-dp-on-trees/
-│
-├── step17-tries/
-│   ├── README.md
-│   └── implementations/
-│
-├── step18-strings-advanced/
-│   ├── README.md
-│   └── problems/
-│
-└── step19-bonus-problems/
-    ├── README.md
-    └── problems/
+└── learn-the-basics/
+    ├── arrays/
+    │   └── easy/
+    │       ├── remove-duplicates-sorted-array.cpp
+    │       ├── rotate-array-by-k.cpp
+    │       └── search-x-in-sorted-array.cpp
+    │
+    ├── basic-maths/
+    │   ├── armstrong-number.cpp
+    │   ├── check-prime.cpp
+    │   ├── count-digits.java
+    │   ├── count-digits1.java
+    │   ├── gcd.cpp
+    │   ├── lc-7.java
+    │   ├── lcm.cpp
+    │   ├── palindrome-optimized.java
+    │   ├── palindrome-simple.java
+    │   ├── print-divisors.cpp
+    │   └── reverse-a-number.java
+    │
+    ├── complexity/
+    │   └── power-set-exponential-complexity.cpp
+    │
+    ├── hashing/
+    │   ├── counting-frequencies.py
+    │   ├── frequency-of-most-frequent-element.cpp
+    │   ├── highest-and-lowest-frequency-elements.java
+    │   └── top-k-frequent-in-array.java
+    │
+    ├── patterns/
+    │   ├── index-triangle.js
+    │   ├── p-22.cpp
+    │   └── pattern-problems.ipynb
+    │
+    └── recursion/
+        ├── factorials-less-or-equal-to-n.java
+        ├── factorials-of-n.java
+        ├── fibonacci.java
+        ├── is-string-palindrome.java
+        ├── print-1-to-n.java
+        ├── print-name-n-times.java
+        ├── reverse-array.java
+        ├── sum-of-n-natural-numbers.java
+        └── understand-recursion-by-print-something-n-times.java
 ```
+
+> **Note:** All folder and file names follow kebab-case convention (lowercase with hyphens) for better compatibility across platforms and adherence to open-source best practices.
 
 ## 🚀 Progress Tracker
 
@@ -141,14 +80,17 @@ striver-a2z-dsa-sheet/
 
 | Step | Topic | Total | Solved | Status |
 |------|-------|-------|--------|--------|
-| 1 | Learn the Basics | 31 | 0 | ✅ |
-| 2 | Sorting Techniques | 7 | 0 | ⬜ Not Started |
-| 3 | Arrays | 40 | 0 | ⬜ Not Started |
-| 4 | Binary Search | 35 | 0 | ⬜ Not Started |
+| 1 | Learn the Basics | 31 | 31 | ✅ |
+| 2 | Sorting Techniques | 7 | 0 | 🔄 In Progress |
+| 3 | Arrays | 40 | 3 | 🔄 In Progress |
+| 4 | Binary Search | 35 | 1 | 🔄 In Progress |
 | 5 | Strings | 15 | 0 | ⬜ Not Started |
 | 6 | Linked Lists | 31 | 0 | ⬜ Not Started |
 | 7 | Recursion | 25 | 0 | ⬜ Not Started |
 | 8 | Bit Manipulation | 15 | 0 | ⬜ Not Started |
+| 8.1 | Learn Bit Manipulation | 8 | 0 | ⬜ Not Started |
+| 8.2 | Interview Problems | 5 | 0 | ⬜ Not Started |
+| 8.3 | Advanced Maths | 5 | 1 | 🔄 In Progress |
 | 9 | Stacks & Queues | 30 | 0 | ⬜ Not Started |
 | 10 | Sliding Window | 12 | 0 | ⬜ Not Started |
 | 11 | Heaps | 17 | 0 | ⬜ Not Started |
@@ -180,9 +122,6 @@ Each solution file includes:
  * 
  * Time Complexity: O(?)
  * Space Complexity: O(?)
- * 
- * Author: Balram Rajak
- * Date: YYYY-MM-DD
  */
 ```
 
@@ -199,14 +138,24 @@ git clone https://github.com/balram-rajak/striver-a2z-dsa-sheet.git
 cd striver-a2z-dsa-sheet
 ```
 
-### **Compile and Run**
-```bash
-# Compile
-javac step3-arrays/3.1-easy/LargestElement.java
+### ⚡ Quick run with VS Code TaskRunner
 
-# Run
-java LargestElement
+**Press `Ctrl+Shift+B`** — automatically compiles, times execution, and handles I/O redirection (`inputf.in` → `outputf.in`).
+
+**Supports:** C++, Java, Python, JavaScript
+
+**Workflow:**
+1. Write input → `inputf.in`
+2. Hit `Ctrl+Shift+B`
+3. Check output → `outputf.in`
+
+**Rebuild TaskRunner** (if modified):
+```bash
+cd lib
+g++ -std=c++17 TaskRunner.cpp -o TaskRunner.exe
 ```
+
+Extend language support in [lib/TaskRunner.cpp](lib/TaskRunner.cpp).
 
 ## 🔗 Resources
 
